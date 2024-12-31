@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.container img {
+    max-width: 100px;
+    margin-top: -10px;
+}
+
+.container p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.helo {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #d3d3d3;
+}
+
+.helo h2 {
+    margin: 10px 0;
+}
+
+.helo p {
+    font-size: 18px;
+    color: #555;
+}
+
+.proyeksaya {
+    font-size: 25px;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.project2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.project3 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin: 10px 0;
+}
+
+.kontak {
+    font-size: 25px;
+    text-align: center;
+}
+
+.tentang {
+    font-size: 19px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 575px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    outline: #ddd;
+}
+
+button {   
+    width: 80px;
+    background: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0;
+}
+button:hover {
+    background-color: #4e4e4e;
+}
+
+button img {
+    max-width: 30px;
+    margin-top: 4px;
+    transition: transform 0.2s;
+}
+
+button img:hover {
+    transform: scale(1.1); /* Zoom saat hover */
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Social Media Container */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Icon Style */
+.social-icon {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+/* Facebook */
+.social-icon.facebook {
+    background-color: #3b5998;
+}
+.social-icon.facebook:hover {
+    background-color: #2d4373;
+}
+
+/* Tiktok */
+.social-icon.tiktok {
+    background-color: #000000;
+}
+.social-icon.tiktok:hover {
+    background-color: #161616;
+}
+
+/* Instagram */
+.social-icon.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+.social-icon.instagram:hover {
+    opacity: 0.8;
+}
+
+/* LinkedIn */
+.social-icon.linkedin {
+    background-color: #0077b5;
+}
+.social-icon.linkedin:hover {
+    background-color: #005582;
+}
+
+/* YouTube */
+.social-icon.youtube {
+    background-color: #e70000;
+}
+.social-icon.youtube:hover {
+    background-color: #cc0000;
+}
+
+/* Hover Effect */
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
